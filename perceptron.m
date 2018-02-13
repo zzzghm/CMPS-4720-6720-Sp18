@@ -1,7 +1,6 @@
 training=importdata('SPECT_train.txt');
 test=importdata('SPECT_test.txt')
-%training(find(training==0))=-1;
-%test(find(test==0))=-1;
+
 %training data
 w=zeros(1,22);
 b=0;
