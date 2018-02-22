@@ -1,8 +1,4 @@
-Python 3.6.3 (v3.6.3:2c5fed86e0, Oct  3 2017, 00:32:08) 
-[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
-Type "copyright", "credits" or "license()" for more information.
->>> 
-============== RESTART: /Users/Documents/cnn_iris.py ==============
+
 Net(
   (fc1): Linear(in_features=4, out_features=15, bias=True)
   (fc2): Linear(in_features=15, out_features=8, bias=True)
