@@ -6,7 +6,7 @@ from mtcnn.mtcnn import MTCNN
 
 detector = MTCNN()
 
-image = cv2.imread("test.jpg")
+image = cv2.imread("ironman.jpg")
 result = detector.detect_faces(image)
 
 # Result is an array with all the bounding boxes detected. We know that for 'ivan.jpg' there is only one.
